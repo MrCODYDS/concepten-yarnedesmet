@@ -4,7 +4,7 @@
  * @version 1.0
  */
 /*
-Plugin Name: visit-plugin
+Plugin Name: visit-widget
 Description: This plugin will provide the total visits per user 
 Author: Yarne De Smet
 Version: 1.0
