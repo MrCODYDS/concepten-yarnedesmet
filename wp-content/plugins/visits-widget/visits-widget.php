@@ -9,13 +9,11 @@ Description: This plugin will provide the total visits per user
 Author: Yarne De Smet
 Version: 1.0
 */
-
+$cookie = 0;
 if (!isset($_COOKIE['visits']))
 {
     $cookie = 1;
     setcookie("visits", $cookie);
-    // Without the following line, the widget doesnt show the number (in this case 1)
-    $_COOKIE['visits'] = 1;
 }
 else
 {
